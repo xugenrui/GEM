@@ -9,6 +9,8 @@ More implementation details will be updated since the publication.
 
 All data (sky images and time series) is downloaded from [NREL Solar Radiation Research Laboratory](https://midcdmz.nrel.gov/apps/sitehome.pl?site=BMS#DOI) and [SIRTA Atmospheric Observatory](https://sirta.ipsl.polytechnique.fr/).
 
+We have uploaded our implementation of the 10-minute alignment code for the SIRTA dataset. A more general version will be coming soon.
+
 The sky image is first corrected by distortion in our implementation (this step can also be skipped according to existing studies).
 
 The pretrained generative sky image prediction task is trained based on [OpenSTL](https://github.com/chengtan9907/OpenSTL).
